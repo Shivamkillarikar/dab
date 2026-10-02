@@ -29,4 +29,4 @@ jobs:
         run: databricks bundle deploy -t prod
 
       - name: Run ETL Pipeline in Prod
-        run: databricks bundle run daily_etl_job -t prod
+        run: databricks bundle run daily_etl_jobs -t prod
